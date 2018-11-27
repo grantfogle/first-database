@@ -44,6 +44,46 @@ exports.seed = function (knex, Promise) {
           hometown_lat: 35.08,
           hometown_long: 106.65,
           useless_superpower: "Can read the minds of houseflies"
+        },
+        {
+          name: 'Brandon RedShirt',
+          fave_animal: 'https://images.unsplash.com/photo-1510853675132-58241c941e4f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9774e7d1ebaa9ac28f3259d4101b1854&auto=format&fit=crop&w=2305&q=80',
+          previous_occupation: 'Aircraft Mechanic',
+          hometown_lat: 39.7293989,
+          hometown_long: -104.9930793,
+          useless_superpower: 'Being able to remember the 57th word of every song heard.'
+        },
+        {
+          name: "Sonja",
+          fave_animal: "https://i0.wp.com/www.wagpets.com/wp-content/uploads/2017/11/the-pug-rose-ears.jpeg?w=960&ssl=1",
+          previous_occupation: "Marketing Manager",
+          hometown_lat: 36.407249,
+          hometown_long: -105.573067,
+          useless_superpower: "can understand the inner workings of butter"
+        },
+        {
+          name: "Beef",
+          fave_animal: "https://palsawa.com/img/Jukcg.jpg",
+          previous_occupation: "Rock Climbing Instructor",
+          hometown_lat: 45.0586,
+          hometown_long: 92.1724,
+          useless_superpower: "Fly, but only two feet off the ground"
+        },
+        {
+          name: 'Sir. Phiillip Hengemuhle the First',
+          fave_animal: 'http://infoweasels.com/whatcat.jpg',
+          previous_occupation: 'Dancer',
+          hometown_lat: 40.0150,
+          hometown_long: 105.2705,
+          useless_superpower: 'Sub-par speling'
+        },
+        {
+          name: 'Dane Parke',
+          fave_animal: 'https://media.mnn.com/assets/images/2017/01/sleeping-bear-log.jpg.838x0_q80.jpg',
+          previous_occupation: 'Sous Chef',
+          hometown_lat: 38.1499,
+          hometown_long: 144.3617,
+          useless_superpower: 'Ability to resist the urges of the snack tray, during presentations'
         }
       ]);
     });
