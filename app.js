@@ -23,9 +23,15 @@ app.post('/', (req, res) => {
     queries.createStudent(req.body).then(students => res.send(students[0]))
 })
 
-console.log(knex)
+app.delete('/:id', (req, res) => {
+    queries.deleteStudent(req.params.id).then(students => res.send({ status: 204, message: "it has been deleted" }))
+})
+
+app.put('/:id', (req, res) => {
+    queries.updateStudent(req.params.id, req.body).then(data => res.json(data));
+})
 
 const listener = () => console.log(`Listening on port ${port}!`);
 app.listen(port, listener);
-// module.exports = app
+
 
